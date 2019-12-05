@@ -2,7 +2,7 @@
 
 import_subprocess
 #This will import a subprocess module. 
-#A subprocess lets you make commands for different OS command like a Linux command and activate in python code
+#A subprocess lets you run OS commands in python code
 
 
 subprocess.call("ifconfig", shell=True)
